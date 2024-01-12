@@ -18,8 +18,8 @@ Proje, Nesne Yönelimli Programlama prensiplerini uygulayan bir konsol uygulamas
 ## Kullanım
 
 Projeyi çalıştırmak için aşağıdaki adımları izleyebilirsiniz:
-1. Komutları girmek için terminal ekranını açın ve `cd <dosya_adi>` komutu gibi komutları kullanarak projeyi kullanacağınız bilgisayarınızdaki ilgili klasöre geçin.
-2. Projeyi klonlayın: `git clone https://github.com/Furkan-Boncuk/c-code.git`
+1. Komutları girmek için terminal ekranını açın ve `cd <dosya_adi>` komutuyla ilgili klasöre geçin.
+2. Projeyi klonlayın: `https://github.com/Furkan-Boncuk/c-code.git`
 3. Uygulamayı derleyip çalıştırın.
 
 ## Proje Detayları
@@ -34,9 +34,9 @@ Proje, OOP prensiblerine uygun hazırlanmıştır :
    
 4. **Abstraction (Soyutlama):** `IParticipantEvent` ve `IOrganizationEvent` interface'leri, sınıflarda kullanılacak metotları belirleyip tanımlamak ve ortak işlemleri bir çatıda toplayarak soyutlama yapmak için kullanılır.
 
-## Proje Geliştirilirken Karşılaşılan Sorunlar : 
+## Projenin Mimari Diyagramı
 
-**Kullanıcının Oturum Süreci:** Kullanıcı giriş yapıp daha sonra hesap değiştirdiğinde yeni açılan hesaba geçilemiyordu ve giriş yapan kullanıcının bilgilerine uygulamanın her yerinden ulaşılamıyordu, bu sorunu çözmek için AuthObject isminde bir class oluşturuldu, bu class içerisinde giriş yapan kullanıcının oturum bilgileri (Username, Password, Email, Id, isAuthenticated) saklandı ve sayede kullanıcının oturumu süresince bu bilgileri korundu ayrıca hesap değiştirildiğinde de bu class üzerinden oluşturulan nesnede tutulan bilgiler sıfırlandı, böyle oturumlar arasında bir çakışma olması engellendi.
+![image](https://github.com/Furkan-Boncuk/EtkinlikYonetimSistemi/assets/114020260/2a0b20c6-512d-450f-b154-ed876c1fb35f)
 
 ## Projenin Ekran Görüntüleri ve Kullanım Senaryoları
 
